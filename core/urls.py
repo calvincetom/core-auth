@@ -4,6 +4,7 @@ It exposes the URL patterns for the project, including admin, authentication, an
 """
 from django.conf import settings
 from django.contrib import admin
+from rest_framework import permissions
 from django.urls import path, include
 from django.conf.urls.static import static
 
